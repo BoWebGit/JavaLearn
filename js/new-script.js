@@ -13,6 +13,6 @@
  const lastViewedFilm = prompt('You last viewed film?', '');
  const reitFilm = prompt('How much you rating him?', '');
 
- personalMovieDB[lastViewedFilm] = reitFilm;
+ personalMovieDB.movies[lastViewedFilm] = reitFilm;
 
  console.log(personalMovieDB);
